@@ -18,7 +18,7 @@ private int branchCode;
 private long branchContactno;
 private String branchEmailid;
 @OneToOne(cascade=CascadeType.ALL)
-private MasterAddress branchAddress;
+private BranchAddress branchAddress;
 
 public int getBranchId() {
 	return branchId;
@@ -68,10 +68,10 @@ public String getBranchEmailid() {
 public void setBranchEmailid(String branchEmailid) {
 	this.branchEmailid = branchEmailid;
 }
-public MasterAddress getBranchAddress() {
+public BranchAddress getBranchAddress() {
 	return branchAddress;
 }
-public void setBranchAddress(MasterAddress branchAddress) {
+public void setBranchAddress(BranchAddress branchAddress) {
 	this.branchAddress = branchAddress;
 }
 

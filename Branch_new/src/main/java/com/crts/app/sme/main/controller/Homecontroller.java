@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import com.crts.app.sme.main.model.Branch;
-import com.crts.app.sme.main.model.MasterAddress;
+import com.crts.app.sme.main.model.BranchAddress;
 import com.crts.app.sme.main.service.Iservice;
 
 @RestController
@@ -20,7 +20,7 @@ public class Homecontroller
 	public Branch presave()
 	
 	{
-		MasterAddress a=new MasterAddress();
+		BranchAddress a=new BranchAddress();
 		a.setHouseNo("111");;
 		a.setStreetName("sss");
 		a.setArea("war");

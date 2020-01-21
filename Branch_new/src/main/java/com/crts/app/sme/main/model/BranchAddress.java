@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class MasterAddress 
+public class BranchAddress 
 {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
