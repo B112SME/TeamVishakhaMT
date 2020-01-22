@@ -1,2 +1,0 @@
-# TeamVishakhaMT
-Master Table Services
